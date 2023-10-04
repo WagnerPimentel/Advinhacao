@@ -1,6 +1,6 @@
 /*
-Jogo: Advinhação
-crie um programa aonde o usuário tem 3 chances para acertar um número aleatório entre 0 e 30 sorteado pelo computador
+Jogo: Advinhaï¿½ï¿½o
+crie um programa aonde o usuï¿½rio tem 3 chances para acertar um nï¿½mero aleatï¿½rio entre 0 e 30 sorteado pelo computador
 */
 
 programa 
@@ -14,25 +14,25 @@ programa
     
     escreva(numeroAleatorio)
     
-    escreva("Vamos lá! Digite o primeiro número, será que está com sorte???: ")
+    escreva("Vamos lï¿½! Digite o primeiro nï¿½mero de 0 a 30, serï¿½ que estï¿½ com sorte???: ")
     leia(numero1)
     
     se(numero1 == numeroAleatorio){
-      escreva("Parabéns, hoje é seu dia de sorte!")
+      escreva("Parabï¿½ns, hoje ï¿½ seu dia de sorte!")
     }senao{
       escreva("Tente mais um!: ")
       leia(numero1)
     
       se(numero1 == numeroAleatorio){
-        escreva("Agora sim, você acertou!!!")
+        escreva("Agora sim, vocï¿½ acertou!!!")
       }senao{
-        escreva("Poxa, ainda não deu, mas você ainda tem uma chance! Qual o próximo número?: ")
+        escreva("Poxa, ainda nï¿½o deu, mas vocï¿½ ainda tem uma chance! Qual o prï¿½ximo nï¿½mero?: ")
         leia(numero1)
     
         se(numero1 == numeroAleatorio){
-          escreva("Uau, foi na última, mas você acertou, parabéns!!!!")
+          escreva("Uau, foi na ï¿½ltima, mas vocï¿½ acertou, parabï¿½ns!!!!")
         }senao{
-          escreva("Não foi dessa vez, tente novamente!!! :p")
+          escreva("Nï¿½o foi dessa vez, tente novamente!!! :p")
         }
       }
     }  
